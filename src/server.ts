@@ -30,5 +30,6 @@ app.use(apiErrorHandler)
 
 app.listen(PORT, () => {
   console.log('Server running http://localhost:' + PORT)
-  connectDB()
+ 
 })
+connectDB()
